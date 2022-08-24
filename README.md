@@ -1,4 +1,4 @@
-# QA-Project-ManualTesting-AND-AutomatedTesting
+## QA-Project-ManualTesting-AND-AutomatedTesting
 
 
 ### Useful Resources:
