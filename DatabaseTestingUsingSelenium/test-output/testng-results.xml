@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-26T13:46:55 AST" name="Default suite" finished-at="2022-08-26T13:47:40 AST" duration-ms="45399">
+    <groups>
+    </groups>
+    <test started-at="2022-08-26T13:46:55 AST" name="Default test" finished-at="2022-08-26T13:47:40 AST" duration-ms="45399">
+      <class name="dBAndSelenium.DatabaseTestingUsingSelenium">
+        <test-method signature="databaseTestingUsingSelenium()[pri:0, instance:dBAndSelenium.DatabaseTestingUsingSelenium@4a22f9e2]" started-at="2022-08-26T13:46:55 AST" name="databaseTestingUsingSelenium" finished-at="2022-08-26T13:47:40 AST" duration-ms="45369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- databaseTestingUsingSelenium -->
+      </class> <!-- dBAndSelenium.DatabaseTestingUsingSelenium -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
