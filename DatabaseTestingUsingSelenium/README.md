@@ -143,5 +143,5 @@ public class DatabaseTestingUsingSelenium {
 <br/>
 
 ## Test Result: 
-### <a href='https://youtu.be/2zU3O7a6loY'>Recorded Video</a><br/>
+### <a href='https://youtu.be/2zU3O7a6loY'>Recorded video, while Automated testing running</a><br/>
 <img src='img/img6.gif' />
