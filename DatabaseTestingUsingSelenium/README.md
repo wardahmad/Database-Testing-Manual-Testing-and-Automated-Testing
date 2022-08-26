@@ -40,7 +40,6 @@ insert into UserLogins values(4, 'WardahUser', 'Pass5');
 
 ### Connect MySQL Database in Eclipse IDE
 - From Window > Perspective > Open Perspective > Other.
-<img src='img/img3.png' /><br/>
 - Choose Database Development.
 <img src='img/img4.png' /><br/>
 
@@ -53,7 +52,7 @@ insert into UserLogins values(4, 'WardahUser', 'Pass5');
 - Next > Finsh
 - Edit the Database Name, DB Server Username, and Password, Click on Test Connection
 
-### Useful Resource: How to Connect to MySQL Database in Eclipse IDE <a href='https://youtu.be/t6NQtfokZr8'>Video</a>
+### Useful Resource: How to Connect MySQL Database in Eclipse IDE <a href='https://youtu.be/t6NQtfokZr8'>Video</a>
 <img src='img/img5.png' /><br/>
 
 - In the `DatabaseTestingUsingSelenium` Class, write the Testing cases:
