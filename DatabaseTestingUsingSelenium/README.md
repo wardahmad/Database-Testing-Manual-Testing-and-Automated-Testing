@@ -5,4 +5,4 @@
 - Create `dbBank` DataBase.
 - Create `UserLogins` Table.
 - Insert the values into the Table.
-<img src='/img1.png' />
+<img src='img/img1.png' />
