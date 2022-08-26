@@ -1,7 +1,7 @@
 ## QA-Project-ManualTesting-AND-AutomatedTesting
 
 ### Project files
-- <a href='/DatabaseTestingUsingSelenium'>Database Testing using Selenium</a>
+- <a href='/DatabaseTestingUsingSelenium'>Database Testing using Selenium (Automated Testing)</a>
 
 ### Useful Resources:
 - <a href='https://youtu.be/SEzPFlnI7mY'>Automation Testing vs Manual Testing</a>
