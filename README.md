@@ -8,6 +8,13 @@
 
 ### Project files
 - Software Requirements Specification (SRS)
+- Test Plan
+- Test Scenarios & Test Cases
+- Requirements Traceability Matrix (RTM)
+- Test Result -Reports(...All Reports..)
+- Code
+- ScreenShots/Videos
+- PPT
 - <a href='https://docs.google.com/document/d/18PlUiLC2cCX-C0D7yXbpsqRUthiTNInyvHZ9wv0VdHw/edit?usp=sharing'>Requirements-Database Design</a>
 - <a href='/DatabaseTestingUsingSelenium'>Database Testing using Selenium (Automated Testing)</a>
 
