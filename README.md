@@ -1,7 +1,18 @@
 ## QA-Project-ManualTesting-AND-AutomatedTesting
 
+### About The Project: 
+* The purpose of this project is to perform Database testing on any Database design in the Bank sector.
+* The types of tests were performed on the database: <b>Structural Database Testing, Functional Testing, Nonfunctional Testing</b>
+* In this project, I chose This <a href='https://github.com/gmgyan/Bank-Database-Design_MS-SQL'>DATABASE DESIGN</a>, To perform Database testing on it, I made some changes to the SQL statements, to match MySQL Server, you can find the changes <a href='/DbBankManagment-MySQL.sql'>HERE</a>.
+
+
 ### Project files
 - <a href='/DatabaseTestingUsingSelenium'>Database Testing using Selenium (Automated Testing)</a>
+
+### How to Set up the testing environment:
+1) Download and Install MySQL https://dev.mysql.com/downloads/installer/ 
+2) Create MySQL Bank-Database:  https://github.com/gmgyan/Bank-Database-Design_MS-SQL
+3) Exploring Database Schema
 
 ### Useful Resources:
 - <a href='https://youtu.be/SEzPFlnI7mY'>Automation Testing vs Manual Testing</a>
