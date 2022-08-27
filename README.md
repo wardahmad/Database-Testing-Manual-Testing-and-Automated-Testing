@@ -1,7 +1,7 @@
 ## QA-Project-ManualTesting-AND-AutomatedTesting
 
 ### About The Project: 
-* The purpose of this project is to perform Database testing on any Database design in the Bank sector.
+* The goal of this project is to perform Database testing on any Database design in the Bank sector, understand database Testing in more depth, and have practical experience in working with different Database testing types.
 * The types of tests were performed on the database: <b>Structural Database Testing, Functional Testing, Nonfunctional Testing</b>
 * In this project, I chose This <a href='https://github.com/gmgyan/Bank-Database-Design_MS-SQL'>DATABASE DESIGN</a>, To perform Database testing on it, I made some changes to the SQL statements, to match MySQL Server, you can find the changes <a href='/DbBankManagment-MySQL.sql'>HERE</a>.
 
