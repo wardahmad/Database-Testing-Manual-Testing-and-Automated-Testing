@@ -36,5 +36,6 @@ Test Environment = {"System": "Windows 10", "Database server": "MySQL", "Browser
 - <a href='https://www.tutorialspoint.com/database_testing/index.htm'>Database Testing-Tutorialspoint</a>
 - <a href='http://www.xenonstack.com/insights/what-is-database-testing'>Database Testing Types and its Best Tools | Quick Guide</a>
 - <a href='https://youtu.be/Sw3eqsKvfCM'>Database Testing using Selenium</a>
+- <a href='https://www.youtube.com/playlist?list=PLsyeobzWxl7rU7Jz3zDRpqB-EODzBbHOI'>Java Database Connectivity (JDBC) by Navin Reddy</a>
 
 
