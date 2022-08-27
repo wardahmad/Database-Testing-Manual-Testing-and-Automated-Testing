@@ -18,7 +18,8 @@
 - <a href='https://docs.google.com/document/d/18PlUiLC2cCX-C0D7yXbpsqRUthiTNInyvHZ9wv0VdHw/edit?usp=sharing'>Requirements-Database Design</a>
 - <a href='/DatabaseTestingUsingSelenium'>Database Testing using Selenium (Automated Testing)</a>
 - Database Load test using JMeter.
-- Integration Of Jenkins With Selenium WebDriver https://www.softwaretestinghelp.com/integration-of-jenkins-with-selenium-webdriver/
+- Continuous integration: Integrate Jenkins With Selenium WebDriver https://www.softwaretestinghelp.com/integration-of-jenkins-with-selenium-webdriver/
+https://www.youtube.com/watch?v=XNfnn0oCzas
 
 ### How to Set up the testing environment:
 1) Download and Install MySQL.
