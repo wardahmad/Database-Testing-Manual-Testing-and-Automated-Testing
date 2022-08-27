@@ -1,4 +1,4 @@
-## QA-Project-ManualTesting-AND-AutomatedTesting
+## Database Testing: Manual Testing and Automated Testing
 
 ### About The Project: 
 * The goal of this project is to perform Database testing on any Database design in the Bank sector, understand database Testing in more depth, and have practical experience in working with different Database testing types.
