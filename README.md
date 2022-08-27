@@ -10,6 +10,9 @@
 - <a href='/DatabaseTestingUsingSelenium'>Database Testing using Selenium (Automated Testing)</a>
 
 ### How to Set up the testing environment:
+```JSON 
+Test Environment = {"System": "Windows 10", "Database server": "MySQL", "Browser": "Chrome 104"}
+```
 1) Download and Install MySQL.
 2) Create Bank-Database.
 3) Exploring Database Schema.
