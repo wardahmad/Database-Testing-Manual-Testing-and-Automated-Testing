@@ -2,7 +2,7 @@
 
 ### About The Project: 
 * The goal of this project is to perform Database testing on any Database design in the Bank sector, understand database Testing in more depth, and have practical experience in working with different Database testing types.
-* The types of tests were performed on the database: <b>Structural Database Testing, Functional Testing, Nonfunctional Testing</b>
+* The types of tests were performed on the database: <b>Structural Database Testing, Functional Testing, Nonfunctional Testing.</b>
 * In this project, I chose This <a href='https://github.com/gmgyan/Bank-Database-Design_MS-SQL'>DATABASE DESIGN</a>, To perform Database testing on it, I made some changes to the SQL statements, to match MySQL Server, you can find the changes <a href='/DbBankManagment-MySQL.sql'>HERE</a>.
 
 
@@ -17,6 +17,7 @@
 - PPT
 - <a href='https://docs.google.com/document/d/18PlUiLC2cCX-C0D7yXbpsqRUthiTNInyvHZ9wv0VdHw/edit?usp=sharing'>Requirements-Database Design</a>
 - <a href='/DatabaseTestingUsingSelenium'>Database Testing using Selenium (Automated Testing)</a>
+- Database Load test using JMeter.
 
 ### How to Set up the testing environment:
 1) Download and Install MySQL.
