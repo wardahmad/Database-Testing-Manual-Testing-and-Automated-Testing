@@ -10,9 +10,9 @@
 - <a href='/DatabaseTestingUsingSelenium'>Database Testing using Selenium (Automated Testing)</a>
 
 ### How to Set up the testing environment:
-1) Download and Install MySQL https://dev.mysql.com/downloads/installer/ 
-2) Create MySQL Bank-Database:  https://github.com/gmgyan/Bank-Database-Design_MS-SQL
-3) Exploring Database Schema
+1) Download and Install MySQL.
+2) Create Bank-Database.
+3) Exploring Database Schema.
 
 ### Useful Resources:
 - <a href='https://youtu.be/SEzPFlnI7mY'>Automation Testing vs Manual Testing</a>
