@@ -37,5 +37,6 @@ Test Environment = {"System": "Windows 10", "Database server": "MySQL", "Browser
 - <a href='http://www.xenonstack.com/insights/what-is-database-testing'>Database Testing Types and its Best Tools | Quick Guide</a>
 - <a href='https://youtu.be/Sw3eqsKvfCM'>Database Testing using Selenium</a>
 - <a href='https://www.youtube.com/playlist?list=PLsyeobzWxl7rU7Jz3zDRpqB-EODzBbHOI'>Java Database Connectivity (JDBC) by Navin Reddy</a>
+- <a href='https://www.youtube.com/watch?v=Sggdhot-MoM'>SQL Stored Procedures - What They Are, Best Practices, Security, and More...</a>
 
 
