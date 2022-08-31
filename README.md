@@ -19,8 +19,9 @@
 - ScreenShots/Videos
 - PPT
 - <a href='https://docs.google.com/document/d/18PlUiLC2cCX-C0D7yXbpsqRUthiTNInyvHZ9wv0VdHw/edit?usp=sharing'>Requirements-Database Design</a>
+- <a href='StoredProcedure'>Stored Procedure</a>
 - <a href='/DatabaseTestingUsingSelenium'>Database Testing using Selenium (Automated Testing)</a>
-- Database Load test using JMeter.
+- Database Performance testing using JMeter.
 - Continuous integration: Integrate Jenkins With Selenium WebDriver https://www.softwaretestinghelp.com/integration-of-jenkins-with-selenium-webdriver/
 https://www.youtube.com/watch?v=XNfnn0oCzas
 
