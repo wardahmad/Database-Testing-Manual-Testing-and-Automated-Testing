@@ -8,7 +8,7 @@
 
 ### Project Files
 - Requirements (Before Testing):
-    - <a href='https://docs.google.com/document/d/18PlUiLC2cCX-C0D7yXbpsqRUthiTNInyvHZ9wv0VdHw/edit?usp=sharing'>Requirements-Database Design</a>
+    - <a href='https://docs.google.com/document/d/18PlUiLC2cCX-C0D7yXbpsqRUthiTNInyvHZ9wv0VdHw/edit?usp=sharing'>Database Design</a>
     - <a href='StoredProcedure'>Create a Stored Procedure</a>
 - Test Documentation:
     - <a href = 'https://docs.google.com/document/d/1N6JgbF7Oev1IKfbub6nuAowmoZztwM6Fb6cT9hukzF8/edit?usp=sharing'>Software Requirements Specification (SRS)</a>
