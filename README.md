@@ -6,29 +6,28 @@
 * In this project, I chose This <a href='https://github.com/gmgyan/Bank-Database-Design_MS-SQL'>DATABASE DESIGN</a>, To perform Database testing on it, I made some changes to the SQL statements, to match MySQL Server, you can find the changes <a href='/DbBankManagment-MySQL.sql'>HERE</a>.
 
 
-### Project files
-- <a href = 'https://docs.google.com/document/d/1N6JgbF7Oev1IKfbub6nuAowmoZztwM6Fb6cT9hukzF8/edit?usp=sharing'>Software Requirements Specification (SRS)</a>
-- <a href='https://docs.google.com/document/d/1ffgC2acgBC3j9VSDJrVSt7hOwLDRMGlM/edit?usp=sharing&ouid=113234837739401438291&rtpof=true&sd=true'>Test Plan</a>
-- <a href='https://docs.google.com/spreadsheets/d/1qXvOpTbsaY7Wr-H-RDjuLmS8dP8Enxbi4ysIfjAX7jQ/edit?usp=sharing'>Test Scenarios & Test Cases</a>
-- <a href='https://docs.google.com/spreadsheets/d/1JOTXuD-j3R2B6XweOAGIHCq0w9ypFNMD/edit?usp=sharing&ouid=113234837739401438291&rtpof=true&sd=true'>Requirements Traceability Matrix (RTM)</a>
-- Summary Report
-- Bug Report
-- TestExecution
-- Code
-- Screenshots/videos --(PPT)
-- ScreenShots/Videos
-- PPT
-- <a href='https://docs.google.com/document/d/18PlUiLC2cCX-C0D7yXbpsqRUthiTNInyvHZ9wv0VdHw/edit?usp=sharing'>Requirements-Database Design</a>
-- <a href='StoredProcedure'>Stored Procedure</a>
-- <a href='/DatabaseTestingUsingSelenium'>Database Testing using Selenium (Automated Testing)</a>
+### Project Files
+- Requirements (Before Testing):
+    - <a href='https://docs.google.com/document/d/18PlUiLC2cCX-C0D7yXbpsqRUthiTNInyvHZ9wv0VdHw/edit?usp=sharing'>Requirements-Database Design</a>
+    - <a href='StoredProcedure'>Create a Stored Procedure</a>
+- Test Documentation:
+    - <a href = 'https://docs.google.com/document/d/1N6JgbF7Oev1IKfbub6nuAowmoZztwM6Fb6cT9hukzF8/edit?usp=sharing'>Software Requirements Specification (SRS)</a>
+    - <a href='https://docs.google.com/document/d/1ffgC2acgBC3j9VSDJrVSt7hOwLDRMGlM/edit?usp=sharing&ouid=113234837739401438291&rtpof=true&sd=true'>Test Plan</a>
+    - <a href='https://docs.google.com/spreadsheets/d/1qXvOpTbsaY7Wr-H-RDjuLmS8dP8Enxbi4ysIfjAX7jQ/edit?usp=sharing'>Test Scenarios & Test Cases</a>
+    - <a href='https://docs.google.com/spreadsheets/d/1JOTXuD-j3R2B6XweOAGIHCq0w9ypFNMD/edit?usp=sharing&ouid=113234837739401438291&rtpof=true&sd=true'>Requirements Traceability Matrix (RTM)</a>
+    - Summary Report
+    - Bug Report
+- SQL statement
+- <a href='/DatabaseTestingUsingSelenium'>Database Testing, Automation Test Suite: Selenium WebDriver, Java, TestNG Framework, JDBC (Java Database Connectivity)</a>
 - Database Performance testing using JMeter.
 - Continuous integration: Integrate Jenkins With Selenium WebDriver https://www.softwaretestinghelp.com/integration-of-jenkins-with-selenium-webdriver/
 https://www.youtube.com/watch?v=XNfnn0oCzas
+- PPT
 
 ### How to Set up the testing environment:
 1) Download and Install MySQL.
-2) Create Bank-Database.
-3) Exploring Database Schema.
+2) Create `dbBankManagement` Database.
+3) Exploring the Database Schema.
 ```json
 Test Environment = {"System": "Windows 10", "Database server": "MySQL", "Browser": "Chrome 104"}
 ```
