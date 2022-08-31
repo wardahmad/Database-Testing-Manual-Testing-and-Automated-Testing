@@ -50,6 +50,8 @@ CALL CustomerAndAccountType('Closed');
 - <b>Input Parameters:</b> (IN User varchar(50) , IN Password varchar(20))
 - <b>Output Parameters:</b> NA
 
+<img src='img/img5.png' /></br>
+
 ```sql
 USE dbBankManagement;
 -- Stored Procedure return Customer and Transaction Information After Successful Login, 
