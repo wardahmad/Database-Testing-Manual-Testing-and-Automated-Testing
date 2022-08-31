@@ -7,13 +7,10 @@
 ```sql
 USE dbBankManagement;
 -- Stored Procedure to reaturn all customers
-DELIMITER &&
-CREATE PROCEDURE SelectAllCustomers()
-BEGIN
-	SELECT * FROM customer;
-END &&
-DELIMITER ;
-
+DELIMITER && CREATE PROCEDURE SelectAllCustomers() BEGIN
+SELECT *
+FROM customer;
+END && DELIMITER;
 CALL SelectAllCustomers();
 ```
 <img src='img/img1.png' /></br>
@@ -28,19 +25,20 @@ CALL SelectAllCustomers();
 USE dbBankManagement;
 -- Stored Procedure return customers Information 
 -- based on their `AccountStatusTypeDescription` status  in `accountstatustype` table.
-DELIMITER //
-CREATE PROCEDURE CustomerAndAccountType(IN AccountTypeDescription varchar(30))
-BEGIN
-	SELECT customer.CustomerFirstName, customer.City, customer.AccountID, account.CurrentBalance
-	, accountstatustype.AccountStatusTypeDescription, accounttype.AccountTypeDescription FROM customer 
-	JOIN customeraccount ON customer.CustomerID = customeraccount.CustomerID
-	JOIN account ON customeraccount.AccountID = account.AccountID
-	JOIN accountstatustype ON accountstatustype.AccountStatusTypeID = account.AccountStatusTypeID
-	JOIN accounttype ON accounttype.AccountTypeID = account.AccountTypeID
-	WHERE accountstatustype.AccountStatusTypeDescription = AccountTypeDescription;
-END //
-DELIMITER ;
-
+DELIMITER / / CREATE PROCEDURE CustomerAndAccountType(IN AccountTypeDescription varchar(30)) BEGIN
+SELECT customer.CustomerFirstName,
+    customer.City,
+    customer.AccountID,
+    account.CurrentBalance,
+    accountstatustype.AccountStatusTypeDescription,
+    accounttype.AccountTypeDescription
+FROM customer
+    JOIN customeraccount ON customer.CustomerID = customeraccount.CustomerID
+    JOIN account ON customeraccount.AccountID = account.AccountID
+    JOIN accountstatustype ON accountstatustype.AccountStatusTypeID = account.AccountStatusTypeID
+    JOIN accounttype ON accounttype.AccountTypeID = account.AccountTypeID
+WHERE accountstatustype.AccountStatusTypeDescription = AccountTypeDescription;
+END / / DELIMITER;
 CALL CustomerAndAccountType('Closed');
 
 ```
@@ -54,37 +52,42 @@ CALL CustomerAndAccountType('Closed');
 
 ```sql
 USE dbBankManagement;
- -- Stored Procedure return Customer and Transaction Information After Successful Login, 
- -- Or Error MESSAGE After entering Invalid Data
-DELIMITER //
-CREATE PROCEDURE LogIn(IN User varchar(50) , IN Password varchar(20))
-BEGIN
-	DECLARE sqlStatment boolean;   
-    DECLARE falseResult varchar(100);
-    
-	SELECT UserLoginID INTO sqlStatment FROM userlogins WHERE userlogins.UserLogin=User AND userlogins.UserPassword=Password;
-    
-    CASE sqlStatment
-		WHEN sqlStatment THEN
-			SELECT userlogins.UserLoginID, customer.SSN, customer.CustomerFirstName, customer.CustomerLastName
-            , transactionlog.TransactionAmount, transactionlog.TransactionDate
-            , transactiontype.TransactionTypeName, transactiontype.TransactionTypeDescription
-            FROM userlogins
-			Join transactionlog ON transactionlog.UserLoginID = userlogins.UserLoginID
-            Join transactiontype ON transactiontype.TransactionTypeID = transactionlog.TransactionTypeID
-            Join customer ON customer.CustomerID = transactionlog.CustomerID
-			WHERE UserLogin=User AND UserPassword=Password;
-	    ELSE
-			SET falseResult = "User authentication failed, Invalid User Name/Password";
-            SELECT falseResult;
-    END CASE;
-END //
-DELIMITER ;
-
+-- Stored Procedure return Customer and Transaction Information After Successful Login, 
+-- Or Error MESSAGE After entering Invalid Data
+DELIMITER / / CREATE PROCEDURE LogIn(IN User varchar(50), IN Password varchar(20)) BEGIN
+DECLARE sqlStatment boolean;
+DECLARE falseResult varchar(100);
+SELECT UserLoginID INTO sqlStatment
+FROM userlogins
+WHERE userlogins.UserLogin = User
+    AND userlogins.UserPassword = Password;
+CASE
+    sqlStatment
+    WHEN sqlStatment THEN
+    SELECT userlogins.UserLoginID,
+        customer.SSN,
+        customer.CustomerFirstName,
+        customer.CustomerLastName,
+        transactionlog.TransactionAmount,
+        transactionlog.TransactionDate,
+        transactiontype.TransactionTypeName,
+        transactiontype.TransactionTypeDescription
+    FROM userlogins
+        Join transactionlog ON transactionlog.UserLoginID = userlogins.UserLoginID
+        Join transactiontype ON transactiontype.TransactionTypeID = transactionlog.TransactionTypeID
+        Join customer ON customer.CustomerID = transactionlog.CustomerID
+    WHERE UserLogin = User
+        AND UserPassword = Password;
+ELSE
+SET falseResult = "User authentication failed, Invalid User Name/Password";
+SELECT falseResult;
+END CASE
+;
+END / / DELIMITER;
 -- Enter Valid username and password 
-CALL LogIn("User3" , "Pass3");
+CALL LogIn("User3", "Pass3");
 -- Enter Invalid username or password
-CALL LogIn("InvalidUsername" , "InvalidPass");
+CALL LogIn("InvalidUsername", "InvalidPass");
 ```
 ### Enter Valid username and password:
 <img src='img/img3.png' /></br>
