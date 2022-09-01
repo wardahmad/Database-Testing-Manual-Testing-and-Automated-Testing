@@ -7,8 +7,8 @@
 
 
 ### Project Files
-- Requirements (Before Testing):
-    - <a href='https://docs.google.com/document/d/18PlUiLC2cCX-C0D7yXbpsqRUthiTNInyvHZ9wv0VdHw/edit?usp=sharing'>Database Design</a>
+- Requirements (Important Files Before Testing):
+    - <a href='https://docs.google.com/document/d/18PlUiLC2cCX-C0D7yXbpsqRUthiTNInyvHZ9wv0VdHw/edit?usp=sharing'>Database Design (ER Diagram - Design Entities)</a>
     - <a href='StoredProcedure'>Create a Stored Procedure</a>
 - Test Documentation:
     - <a href = 'https://docs.google.com/document/d/1N6JgbF7Oev1IKfbub6nuAowmoZztwM6Fb6cT9hukzF8/edit?usp=sharing'>Software Requirements Specification (SRS)</a>
@@ -17,10 +17,13 @@
     - <a href='https://docs.google.com/spreadsheets/d/1JOTXuD-j3R2B6XweOAGIHCq0w9ypFNMD/edit?usp=sharing&ouid=113234837739401438291&rtpof=true&sd=true'>Requirements Traceability Matrix (RTM)</a>
     - Summary Report
     - Bug Report
-- SQL statement
-- <a href='/DatabaseTestingUsingSelenium'>Database Testing, Automation Test Suite: Selenium WebDriver, Java, TestNG Framework, JDBC (Java Database Connectivity)</a>
-- Database Performance testing using JMeter.
-- Continuous integration: Integrate Jenkins With Selenium WebDriver https://www.softwaretestinghelp.com/integration-of-jenkins-with-selenium-webdriver/
+    - Test Report
+    - Test Queries
+- Automate Database Testing
+    - <a href='/DatabaseTestingUsingSelenium'>Automate Database Testing, Create a test suite (Using Selenium WebDriver, Java, TestNG Framework, Java Database Connectivity, MySQL)</a>
+    - Automate SQL Stored Procedures
+    - Database Performance testing using JMeter.
+    - Continuous integration: Integrate Jenkins With Selenium WebDriver https://www.softwaretestinghelp.com/integration-of-jenkins-with-selenium-webdriver/
 https://www.youtube.com/watch?v=XNfnn0oCzas
 - PPT
 
