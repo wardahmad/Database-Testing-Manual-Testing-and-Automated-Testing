@@ -18,9 +18,9 @@
 - In `\src\test\java` Create a new Packege, `StoredProceduresTesting`
 - In `pom.xml` Add Dependency >
     - Go to https://mvnrepository.com/
-    - Search For `MySql` and `TestNG`, Click on the latest version, Copy the Dependency, and Paste it inside `<dependencies></dependencies>` Tag.
+    - Search For `MySql`, `lang3` and `TestNG`, Click on the latest version, Copy the Dependency, and Paste it inside `<dependencies></dependencies>` Tag.
 
 <img src='img/img4.png' /></br>
 
 - Create a `TestNG` class `SP_MySQL_Testing`, In the `StoredProceduresTesting` Packege.
-- Create the Test Case.
+- Create the Test Cases.
