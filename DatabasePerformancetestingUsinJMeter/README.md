@@ -5,13 +5,24 @@
 - Download `apache jmeter`
 - Create a Database from <a href='../DbBankManagment-MySQL.sql'>Here</a>
 - <b>Prerequisite:</b>
-- From Database you need:
+- From your Database you need:
     - Database Name: `dbbankmanagement`
     - Server Name: `localhost`
     - Port number: `3306`
     - User Name: `root`
     - Password: `1234` >> My Password :) 
+    - Add mySQL Connector Jar to lib folder of meter 
+    - https://dev.mysql.com/downloads/connector/j/8.0.html
+    - Platform Independent > Download the ZIP File
 - Unzip `apache-jmeter-5.5` Go to `bin` and Double Click on `jmeter` type `Windows Batch File`
 
 <img src='img/img1.png' /></br>
 <img src='img/img2.png' /></br>
+
+- Right Click on `Test Plan` > `Add` > `Thread Group` 
+
+
+- Save `DatabaseTesting.jmx`
+- Add mySQL Connector Jar File to lib folder of meter.
+
+<img src='img/img3.png' /></br>
