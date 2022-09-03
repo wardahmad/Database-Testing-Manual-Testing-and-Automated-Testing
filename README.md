@@ -12,7 +12,7 @@
     - <a href='StoredProcedure'>Create a Stored Procedure</a>
 - Test Documentation:
     - <a href = 'https://docs.google.com/document/d/1N6JgbF7Oev1IKfbub6nuAowmoZztwM6Fb6cT9hukzF8/edit?usp=sharing'>Software Requirements Specification (SRS)</a>
-    - <a href='https://docs.google.com/document/d/1ffgC2acgBC3j9VSDJrVSt7hOwLDRMGlM/edit?usp=sharing&ouid=113234837739401438291&rtpof=true&sd=true'>Test Plan</a>
+    - <a href='https://docs.google.com/document/d/1ffgC2acgBC3j9VSDJrVSt7hOwLDRMGlM/edit?usp=sharing&ouid=113234837739401438291&rtpof=true&sd=true'>Database Test Plan</a>
     - <a href='https://docs.google.com/spreadsheets/d/1qXvOpTbsaY7Wr-H-RDjuLmS8dP8Enxbi4ysIfjAX7jQ/edit?usp=sharing'>Test Scenarios & Test Cases</a>
     - <a href='https://docs.google.com/spreadsheets/d/1JOTXuD-j3R2B6XweOAGIHCq0w9ypFNMD/edit?usp=sharing&ouid=113234837739401438291&rtpof=true&sd=true'>Requirements Traceability Matrix (RTM)</a>
     - Summary Report
