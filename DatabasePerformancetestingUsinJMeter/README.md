@@ -11,7 +11,7 @@
     - Port number: `3306`
     - User Name: `root`
     - Password: `1234` >> My Password :) 
-    - Add mySQL Connector Jar to lib folder of meter 
+    - Add `mySQL Connector` Jar file to `lib` folder of Jmeter 
     - https://dev.mysql.com/downloads/connector/j/8.0.html
     - Platform Independent > Download the ZIP File
 - Unzip `apache-jmeter-5.5` Go to `bin` and Double Click on `jmeter` type `Windows Batch File`
