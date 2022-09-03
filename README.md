@@ -37,10 +37,12 @@ https://www.youtube.com/watch?v=XNfnn0oCzas
 4) Validate with the expected result.
 5) Showcase and report findings to Stakeholders.
 
-
 ```json
 Test Environment = {"System": "Windows 10", "Database server": "MySQL", "Browser": "Chrome 104"}
 ```
+
+### Which technologies have been used:
+- 
 
 ### Useful Resources:
 - <a href='https://youtu.be/SEzPFlnI7mY'>Automation Testing vs Manual Testing</a>
@@ -53,5 +55,6 @@ Test Environment = {"System": "Windows 10", "Database server": "MySQL", "Browser
 - <a href='https://www.youtube.com/watch?v=Sggdhot-MoM'>SQL Stored Procedures - What They Are, Best Practices, Security</a>
 - <a href='https://www.youtube.com/playlist?list=PLUDwpEzHYYLtmxThtmsBxocKuicJOddGj'>Database Testing</a>
 - <a href='https://www.guru99.com/data-testing.html'>Database (Data) Testing Tutorial with Sample Test Cases</a>
+- <a href='https://youtu.be/Geq60OVyBPg'>Software Testing Tutorial - Learn Unit Testing and Integration Testing</a>
 
 
