@@ -27,10 +27,16 @@
 https://www.youtube.com/watch?v=XNfnn0oCzas
 - PPT
 
-### How to Set up the testing environment:
-1) Download and Install MySQL.
-2) Create `dbBankManagement` Database.
-3) Exploring the Database Schema.
+### Step by Step Process when testing DB:
+1) Prepare environment:
+    - Download and Install MySQL.
+    - Create `dbBankManagement` Database.
+    - Exploring the Database Schema.
+2) Run a test.
+3) Check test results.
+4) Validate with the expected result.
+5) Showcase and report findings to Stakeholders.
+
 
 ```json
 Test Environment = {"System": "Windows 10", "Database server": "MySQL", "Browser": "Chrome 104"}
