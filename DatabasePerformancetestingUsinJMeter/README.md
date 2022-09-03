@@ -52,8 +52,10 @@
 - Add Listener, Right Click on `Thread Group` > `Add` > `Listener` > `View Results Tree` and `View Results in Table`.
 - Add more `JDBC Request`, Based on Project Requirements.
 
-<img src='img/img7.png' /></br>
 <img src='img/img6.png' /></br>
+<img src='img/img7.png' /></br>
+<img src='img/img8.png' /></br>
+<img src='img/img9.png' /></br>
 
 
 ### Step 3: Execute the Test

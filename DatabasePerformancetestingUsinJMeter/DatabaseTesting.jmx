@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="5.0" jmeter="5.5">
   <hashTree>
-    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="DatabaseTestPlan" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
       <boolProp name="TestPlan.functional_mode">false</boolProp>
       <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
@@ -35,9 +35,9 @@
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">10</stringProp>
+          <stringProp name="LoopController.loops">5</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">5000</stringProp>
+        <stringProp name="ThreadGroup.num_threads">100</stringProp>
         <stringProp name="ThreadGroup.ramp_time">10</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
@@ -47,11 +47,50 @@
       <hashTree>
         <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="JDBC Request_1" enabled="true">
           <stringProp name="dataSource">dBVariableName</stringProp>
-          <stringProp name="query">CALL CustomerAndAccountType(&apos;Closed&apos;)</stringProp>
+          <stringProp name="query">SELECT * FROM dbbankmanagement.customer;</stringProp>
           <stringProp name="queryArguments"></stringProp>
           <stringProp name="queryArgumentsTypes"></stringProp>
           <stringProp name="queryTimeout"></stringProp>
-          <stringProp name="queryType">Callable Statement</stringProp>
+          <stringProp name="queryType">Select Statement</stringProp>
+          <stringProp name="resultSetHandler">Store as String</stringProp>
+          <stringProp name="resultSetMaxRows"></stringProp>
+          <stringProp name="resultVariable"></stringProp>
+          <stringProp name="variableNames"></stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="JDBC Request_2" enabled="true">
+          <stringProp name="dataSource">dBVariableName</stringProp>
+          <stringProp name="query">SELECT userlogins.UserLoginID, customer.SSN, customer.CustomerFirstName, customer.CustomerLastName
+, transactionlog.TransactionAmount, transactionlog.TransactionDate
+, transactiontype.TransactionTypeName, transactiontype.TransactionTypeDescription
+FROM userlogins
+Join transactionlog ON transactionlog.UserLoginID = userlogins.UserLoginID
+Join transactiontype ON transactiontype.TransactionTypeID = transactionlog.TransactionTypeID
+Join customer ON customer.CustomerID = transactionlog.CustomerID
+WHERE UserLogin=&apos;User3&apos; AND UserPassword=&apos;Pass3&apos;;</stringProp>
+          <stringProp name="queryArguments"></stringProp>
+          <stringProp name="queryArgumentsTypes"></stringProp>
+          <stringProp name="queryTimeout"></stringProp>
+          <stringProp name="queryType">Select Statement</stringProp>
+          <stringProp name="resultSetHandler">Store as String</stringProp>
+          <stringProp name="resultSetMaxRows"></stringProp>
+          <stringProp name="resultVariable"></stringProp>
+          <stringProp name="variableNames"></stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="JDBC Request_3" enabled="true">
+          <stringProp name="dataSource">dBVariableName</stringProp>
+          <stringProp name="query">SELECT customer.CustomerFirstName, customer.City, customer.AccountID, account.CurrentBalance
+, accountstatustype.AccountStatusTypeDescription, accounttype.AccountTypeDescription FROM customer 
+JOIN customeraccount ON customer.CustomerID = customeraccount.CustomerID
+JOIN account ON customeraccount.AccountID = account.AccountID
+JOIN accountstatustype ON accountstatustype.AccountStatusTypeID = account.AccountStatusTypeID
+JOIN accounttype ON accounttype.AccountTypeID = account.AccountTypeID
+WHERE accountstatustype.AccountStatusTypeDescription = &apos;Closed&apos;;</stringProp>
+          <stringProp name="queryArguments"></stringProp>
+          <stringProp name="queryArgumentsTypes"></stringProp>
+          <stringProp name="queryTimeout"></stringProp>
+          <stringProp name="queryType">Select Statement</stringProp>
           <stringProp name="resultSetHandler">Store as String</stringProp>
           <stringProp name="resultSetMaxRows"></stringProp>
           <stringProp name="resultVariable"></stringProp>
