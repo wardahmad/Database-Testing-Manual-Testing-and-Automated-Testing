@@ -1,4 +1,4 @@
-## Database Testing using Selenium:
+### Automate Database Testing, Create a test suite (Using Selenium WebDriver, Java, TestNG Framework, Java Database Connectivity, MySQL)
 
 ### How to set up the testing environment:
 - Open `MySQL Workbench`.
