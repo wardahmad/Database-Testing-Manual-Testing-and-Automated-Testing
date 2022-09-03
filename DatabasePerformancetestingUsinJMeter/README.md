@@ -16,8 +16,8 @@
     - Platform Independent > Download the ZIP File
 - Unzip `apache-jmeter-5.5` Go to `bin` and Double Click on `jmeter` type `Windows Batch File`
 
-<img src='img/img1.png' /></br>
-<img src='img/img2.png' /></br>
+<img src='img/img1.png' /></br></br>
+<img src='img/img2.png' /></br></br>
 
 - Right Click on `Test Plan` > `Add` > `Thread Group` 
 
