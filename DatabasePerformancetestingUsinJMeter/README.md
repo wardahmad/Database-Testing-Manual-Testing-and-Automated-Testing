@@ -20,9 +20,9 @@
 <img src='img/img2.png' /></br></br>
 
 - Right Click on `Test Plan` > `Add` > `Thread Group` 
-
-
 - Save `DatabaseTesting.jmx`
-- Add mySQL Connector Jar File to lib folder of meter.
+- Add `mySQL Connector` Jar file to `lib` folder of JMeter.
 
 <img src='img/img3.png' /></br>
+
+- Restart JMeter.
