@@ -45,7 +45,18 @@
 <img src='img/img5.png' /></br>
 
 ### Step 2: Write SQL Query
+- Add Sampler Request
+- Right Click on `Thread Group` > `Add` > `Sampler` > `JDBC Request`
+- Put the variable name: `dBVariableName`
+- Choose the `Query Type` and Write the Query you want in the `Query TextBox`.
+- Add Listener, Right Click on `Thread Group` > `Add` > `Listener` > `View Results Tree` and `View Results in Table`.
+- Add more `JDBC Request`, Based on Project Requirements.
+
+<img src='img/img7.png' /></br>
+<img src='img/img6.png' /></br>
 
 
 ### Step 3: Execute the Test
+- Start the Execution.
+
 
