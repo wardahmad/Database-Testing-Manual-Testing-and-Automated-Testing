@@ -4,7 +4,7 @@
 - Download and install `MySQL` Free Community Edition.
 - Download `apache jmeter`
 - Create a Database from <a href='../DbBankManagment-MySQL.sql'>Here</a>
-- Prerequisite:
+- <b>Prerequisite:</b>
 * From Database you need:
     * Database Name: `dbbankmanagement`
     * Server Name: `localhost`
