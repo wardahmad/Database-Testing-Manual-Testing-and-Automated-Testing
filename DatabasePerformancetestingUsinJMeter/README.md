@@ -66,7 +66,7 @@
 <img src='img/img11.png' /></br>
 <img src='img/img12.png' /></br>
 <img src='img/img13.png' /></br>
-<img src='img/img14.png' /></br>
-<img src='img/img10.png' /></br>
+<img src='img/img14.gif' /></br>
+<img src='img/img10.gif' /></br>
 
 
