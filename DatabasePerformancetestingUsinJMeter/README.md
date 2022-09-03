@@ -61,4 +61,12 @@
 ### Step 3: Execute the Test
 - Start the Execution.
 
+- <a href='https://youtu.be/NFYAov9EvWI'>Recorded video, while Automated testing using JMeter is running</a></br>
+
+<img src='img/img11.png' /></br>
+<img src='img/img12.png' /></br>
+<img src='img/img13.png' /></br>
+<img src='img/img14.png' /></br>
+<img src='img/img10.png' /></br>
+
 

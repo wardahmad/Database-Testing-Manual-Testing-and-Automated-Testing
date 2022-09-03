@@ -35,10 +35,10 @@
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">5</stringProp>
+          <stringProp name="LoopController.loops">2</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">100</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">10</stringProp>
+        <stringProp name="ThreadGroup.num_threads">200</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">40</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
@@ -47,7 +47,7 @@
       <hashTree>
         <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="JDBC Request_1" enabled="true">
           <stringProp name="dataSource">dBVariableName</stringProp>
-          <stringProp name="query">SELECT * FROM dbbankmanagement.customer;</stringProp>
+          <stringProp name="query">SELECT * FROM dbbankmanagement.customer</stringProp>
           <stringProp name="queryArguments"></stringProp>
           <stringProp name="queryArgumentsTypes"></stringProp>
           <stringProp name="queryTimeout"></stringProp>
@@ -67,7 +67,7 @@ FROM userlogins
 Join transactionlog ON transactionlog.UserLoginID = userlogins.UserLoginID
 Join transactiontype ON transactiontype.TransactionTypeID = transactionlog.TransactionTypeID
 Join customer ON customer.CustomerID = transactionlog.CustomerID
-WHERE UserLogin=&apos;User3&apos; AND UserPassword=&apos;Pass3&apos;;</stringProp>
+WHERE UserLogin=&apos;User3&apos; AND UserPassword=&apos;Pass3&apos;</stringProp>
           <stringProp name="queryArguments"></stringProp>
           <stringProp name="queryArgumentsTypes"></stringProp>
           <stringProp name="queryTimeout"></stringProp>
@@ -86,7 +86,7 @@ JOIN customeraccount ON customer.CustomerID = customeraccount.CustomerID
 JOIN account ON customeraccount.AccountID = account.AccountID
 JOIN accountstatustype ON accountstatustype.AccountStatusTypeID = account.AccountStatusTypeID
 JOIN accounttype ON accounttype.AccountTypeID = account.AccountTypeID
-WHERE accountstatustype.AccountStatusTypeDescription = &apos;Closed&apos;;</stringProp>
+WHERE accountstatustype.AccountStatusTypeDescription = &apos;Closed&apos;</stringProp>
           <stringProp name="queryArguments"></stringProp>
           <stringProp name="queryArgumentsTypes"></stringProp>
           <stringProp name="queryTimeout"></stringProp>
