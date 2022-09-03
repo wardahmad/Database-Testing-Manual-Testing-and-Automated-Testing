@@ -1,5 +1,5 @@
 ## Database Performance Testing
-### Test Database server using JMeter:
+### Testing Database server using `JMeter`:
 
 - Download and install `MySQL` Free Community Edition.
 - Download `apache jmeter`.
@@ -43,6 +43,7 @@
 
 <img src='img/img4.png' /></br>
 <img src='img/img5.png' /></br>
+
 ### Step 2: Write SQL Query
 
 
