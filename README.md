@@ -51,6 +51,7 @@ Test Environment = {"System": "Windows 10", "Database server": "MySQL", "Browser
 - Github
 - Git Bash
 - Eclipse IDE
+- Google Chrome 104
 
 ### Useful Resources:
 - <a href='https://youtu.be/SEzPFlnI7mY'>Automation Testing vs Manual Testing</a>
