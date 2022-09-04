@@ -16,9 +16,8 @@
     - <a href='https://docs.google.com/spreadsheets/d/1qXvOpTbsaY7Wr-H-RDjuLmS8dP8Enxbi4ysIfjAX7jQ/edit?usp=sharing'>Test Scenarios & Test Cases</a>
     - <a href='https://docs.google.com/spreadsheets/d/1rnReoQFrIx4fWX7a_b3AeUzEnWWKt2iHJIJr30qXIDI/edit?usp=sharing'>Requirements Traceability Matrix (RTM)</a>
     - <a href='https://docs.google.com/spreadsheets/d/1s2fI4U_F9rmRQoxZ7cp56HK2A5J1NVx1MMipavhrDoo/edit?usp=sharing'>Bug Report</a>
-    - Summary Report
-    - Test Report
-    - Test Queries
+    - <a href=''>Test Summary Report</a>
+    - Test Report, Test Queries
 - Automate Database Testing
     - <a href='/DatabaseTestingUsingSelenium'>Automate Database Testing, Create a test suite (Using Selenium WebDriver, Java, TestNG Framework, Java Database Connectivity, MySQL)</a>
     - <a href='AutomateSQLStoredProcedures'>Automate SQL Stored Procedures, TestNG Framework.</a>
