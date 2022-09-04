@@ -16,7 +16,7 @@
     - <a href='https://docs.google.com/spreadsheets/d/1qXvOpTbsaY7Wr-H-RDjuLmS8dP8Enxbi4ysIfjAX7jQ/edit?usp=sharing'>Test Scenarios & Test Cases</a>
     - <a href='https://docs.google.com/spreadsheets/d/1rnReoQFrIx4fWX7a_b3AeUzEnWWKt2iHJIJr30qXIDI/edit?usp=sharing'>Requirements Traceability Matrix (RTM)</a>
     - <a href='https://docs.google.com/spreadsheets/d/1s2fI4U_F9rmRQoxZ7cp56HK2A5J1NVx1MMipavhrDoo/edit?usp=sharing'>Bug Report</a>
-    - <a href=''>Test Summary Report</a>
+    - <a href='https://docs.google.com/document/d/1Aw2TXnz-1mhOi-t_aNS8b52EEI-8s7pYBc-UHxWnPzs/edit?usp=sharing'>Test Summary Report</a>
     - Test Report, Test Queries
 - Automate Database Testing
     - <a href='/DatabaseTestingUsingSelenium'>Automate Database Testing, Create a test suite (Using Selenium WebDriver, Java, TestNG Framework, Java Database Connectivity, MySQL)</a>
@@ -41,7 +41,16 @@ Test Environment = {"System": "Windows 10", "Database server": "MySQL", "Browser
 ```
 
 ### Which technologies have been used:
-- 
+- MySQL Community Server 8.0.30
+- Selenium WebDriver With Java
+- TestNG Framework
+- (JDBC) Java Database Connectivity 
+- Apache JMeter
+- Jenkins With Selenium WebDriver
+- Jenkins With Github
+- Github
+- Git Bash
+- Eclipse IDE
 
 ### Useful Resources:
 - <a href='https://youtu.be/SEzPFlnI7mY'>Automation Testing vs Manual Testing</a>
