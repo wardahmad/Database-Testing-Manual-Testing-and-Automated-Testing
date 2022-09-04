@@ -2,8 +2,8 @@
 
 ### About The Project: 
 * The goal of this project is to perform Database testing on any Database design in the Bank sector, understand database Testing in more depth, and have practical experience in working with different Database testing types.
-* The types of tests were performed on the database: <b>Structural Database Testing, Functional Testing, Nonfunctional Testing.</b>
-* In this project, I chose This <a href='https://github.com/gmgyan/Bank-Database-Design_MS-SQL'>DATABASE DESIGN</a>, To perform Database testing on it, I made some changes to the SQL statements, to match MySQL Server, you can find the changes <a href='/DbBankManagment-MySQL.sql'>HERE</a>.
+* The types of tests were performed on the database: <b>Manual and Automated Testing, White Box And Black Box, Functional and Non-Functional, Schema Testing(Tables, Views, Stored Procedures, Functions, Triggers), ACID Principles, Data Integrity, Mapping Testing, DML Operations, Database Validation, and Performance Testing. </b>
+* In this project, I have chosen this <a href='https://github.com/gmgyan/Bank-Database-Design_MS-SQL'>DATABASE DESIGN</a>, To perform Database testing on it, I made some changes to the SQL statements, to match MySQL Server, you can find the changes <a href='/DbBankManagment-MySQL.sql'>HERE</a>.
 
 
 ### Project Files
@@ -15,8 +15,8 @@
     - <a href='https://docs.google.com/document/d/1ffgC2acgBC3j9VSDJrVSt7hOwLDRMGlM/edit?usp=sharing&ouid=113234837739401438291&rtpof=true&sd=true'>Database Test Plan</a>
     - <a href='https://docs.google.com/spreadsheets/d/1qXvOpTbsaY7Wr-H-RDjuLmS8dP8Enxbi4ysIfjAX7jQ/edit?usp=sharing'>Test Scenarios & Test Cases</a>
     - <a href='https://docs.google.com/spreadsheets/d/1JOTXuD-j3R2B6XweOAGIHCq0w9ypFNMD/edit?usp=sharing&ouid=113234837739401438291&rtpof=true&sd=true'>Requirements Traceability Matrix (RTM)</a>
+    - <a href='https://docs.google.com/spreadsheets/d/1s2fI4U_F9rmRQoxZ7cp56HK2A5J1NVx1MMipavhrDoo/edit?usp=sharing'>Bug Report</a>
     - Summary Report
-    - Bug Report
     - Test Report
     - Test Queries
 - Automate Database Testing
@@ -27,7 +27,7 @@
 https://www.youtube.com/watch?v=XNfnn0oCzas
 - PPT
 
-### Step by Step Process when testing DB:
+### Step by Step Process when Testing DB:
 1) Prepare environment:
     - Download and Install MySQL.
     - Create `dbBankManagement` Database.
