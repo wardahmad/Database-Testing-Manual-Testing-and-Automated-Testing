@@ -30,5 +30,7 @@
 - Click on `New Item`
 - Click on `Freestyle Project`
 
+### Selenium WebDriver Project
+- I'll use <a href='../DatabaseTestingUsingSelenium'>This Project</a>
 <img src='img/img7.png' /></br>
 
