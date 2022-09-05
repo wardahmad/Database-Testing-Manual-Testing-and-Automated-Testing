@@ -17,13 +17,13 @@ CALL SelectAllCustomers();
 
 ## Stored Procedure 2:
 - <b>Stored procedure Name:</b> CustomerAndAccountType
-- <b>Description:</b> Stored Procedure return customers Information based on their `AccountStatusTypeDescription` status  in `accountstatustype` table.
+- <b>Description:</b> Stored Procedure SELECT customers Information based on their `AccountStatusTypeDescription` status  in `accountstatustype` table.
 - <b>Input Parameters:</b> IN AccountTypeDescription varchar(30)
 - <b>Output Parameters:</b> NA
 
 ```sql
 USE dbBankManagement;
--- Stored Procedure return customers Information 
+-- Stored Procedure SELECT customers Information 
 -- based on their `AccountStatusTypeDescription` status  in `accountstatustype` table.
 DELIMITER / / CREATE PROCEDURE CustomerAndAccountType(IN AccountTypeDescription varchar(30)) BEGIN
 SELECT customer.CustomerFirstName,
@@ -46,7 +46,7 @@ CALL CustomerAndAccountType('Closed');
 
 ## Stored Procedure 3:
 - <b>Stored procedure Name:</b> LogIn
-- <b>Description:</b> Stored Procedure return Customer and Transaction Information After Successful Login, Or Error MESSAGE After entering Invalid Data.
+- <b>Description:</b> Stored Procedure SELECT Customer and Transaction Information After Successful Login, Or Error MESSAGE After entering Invalid Data.
 - <b>Input Parameters:</b> (IN User varchar(50) , IN Password varchar(20))
 - <b>Output Parameters:</b> NA
 
@@ -54,7 +54,7 @@ CALL CustomerAndAccountType('Closed');
 
 ```sql
 USE dbBankManagement;
--- Stored Procedure return Customer and Transaction Information After Successful Login, 
+-- Stored Procedure SELECT Customer and Transaction Information After Successful Login, 
 -- Or Error MESSAGE After entering Invalid Data
 DELIMITER / / CREATE PROCEDURE LogIn(IN User varchar(50), IN Password varchar(20)) BEGIN
 DECLARE sqlStatment boolean;
