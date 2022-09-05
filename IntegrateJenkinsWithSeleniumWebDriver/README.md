@@ -35,8 +35,8 @@
 - the `bat` file content:
 
 ```bat
-cd C:\Users\white\eclipse-workspace\DatabaseTestingUsingSelenium
-set ProjectPath=C:\Users\white\eclipse-workspace\DatabaseTestingUsingSelenium
+cd C:\Users\white\eclipse-workspace\DatabaseTestingWithSelenium
+set ProjectPath=C:\Users\white\eclipse-workspace\DatabaseTestingWithSelenium
 echo %ProjectPath%
 set classpath=%ProjectPath%\bin;%ProjectPath%\lib\*
 echo %classpath%
@@ -66,6 +66,8 @@ java org.testng.TestNG %ProjectPath%\testng.xml
 - Click on Build Now
 
 <img src='img/img12.png' /></br>
+<img src='img/img13.png' /></br>
+<img src='img/img14.png' /></br>
 
 
 

@@ -46,7 +46,6 @@ Test Environment = {"System": "Windows 10", "Database server": "MySQL", "Browser
 - (JDBC) Java Database Connectivity 
 - Apache JMeter
 - Jenkins With Selenium WebDriver
-- Jenkins With Github
 - Github
 - Git Bash
 - Eclipse IDE
