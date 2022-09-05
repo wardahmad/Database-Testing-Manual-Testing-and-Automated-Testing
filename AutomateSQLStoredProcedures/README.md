@@ -239,7 +239,7 @@ public class SP_MySQL_Testing {
 
 ## Result - Images and Video:
 
+### <a href='https://youtu.be/S1qJr84vlAg'>Recorded video, while Automated testing running</a>
+
 <img src='img/img5.png' /></br>
 <img src='img/img6.gif' /></br>
-
-<a href='https://youtu.be/S1qJr84vlAg'>Recorded video, while Automated testing running</a>
