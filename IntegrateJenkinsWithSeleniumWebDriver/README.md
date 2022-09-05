@@ -27,13 +27,45 @@
 <img src='img/img6.png' /></br>
 <img src='img/img7.png' /></br>
 
+### Selenium WebDriver Project
+
+- In the project folder, create the `lib` folder.
+- Add all JARs files in this folder `lib`.
+- Create `bat` File in the project Folder.
+- the `bat` file content:
+
+```bat
+cd C:\Users\white\eclipse-workspace\DatabaseTestingUsingSelenium
+set ProjectPath=C:\Users\white\eclipse-workspace\DatabaseTestingUsingSelenium
+echo %ProjectPath%
+set classpath=%ProjectPath%\bin;%ProjectPath%\lib\*
+echo %classpath%
+java org.testng.TestNG %ProjectPath%\testng.xml
+```
+
 ### Jenkin Dashboard is Ready
 - Click on `New Item`
+- Enter a Project name
 - Click on `Freestyle Project`
 
 <img src='img/img8.png' /></br>
 
-### Selenium WebDriver Project
+- Advanced > Use custom workspace.
+- Enter the project path.
+
+<img src='img/img9.png' /></br>
+
+- Build > Execute Windows batch command > Click on Apply
+
+<img src='img/img10.png' /></br>
+
+- Click on Save
+
+<img src='img/img11.png' /></br>
+
+- Click on Build Now
+
+<img src='img/img12.png' /></br>
 
 
 
