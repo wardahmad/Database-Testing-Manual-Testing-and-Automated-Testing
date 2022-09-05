@@ -69,7 +69,7 @@ java org.testng.TestNG %ProjectPath%\testng.xml
 <img src='img/img13.png' /></br>
 <img src='img/img14.png' /></br>
 
-### <a href='https://youtu.be/LLSiWUSZiD4'>Recorded video, while Automated testing running</a>
+### <a href='https://youtu.be/LLSiWUSZiD4'>Recorded video, While Integrate Jenkins With Selenium WebDriver</a>
 
 <img src='img/img15.gif' /></br>
 

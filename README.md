@@ -25,7 +25,7 @@
     - <a href='IntegrateJenkinsWithSeleniumWebDriver'>Continuous integration: Integrate Jenkins With Selenium WebDriver</a>
 - PPT
 
-### Step by Step Process when Testing DB:
+### Step by Step Process when Testing the DB:
 1) Prepare environment:
     - Download and Install MySQL.
     - Create `dbBankManagement` Database.
@@ -40,16 +40,16 @@ Test Environment = {"System": "Windows 10", "Database server": "MySQL", "Browser
 ```
 
 ### Which technologies have been used:
-- MySQL Community Server 8.0.30
-- Selenium WebDriver With Java
-- TestNG Framework
-- (JDBC) Java Database Connectivity 
-- Apache JMeter
-- Jenkins With Selenium WebDriver
-- Github
-- Git Bash
-- Eclipse IDE
-- Google Chrome 104
+- MySQL Community Server 8.0.30.
+- Selenium WebDriver With Java.
+- TestNG Framework.
+- (JDBC) Java Database Connectivity.
+- Apache JMeter.
+- Jenkins.
+- Github.
+- Git Bash.
+- Eclipse IDE.
+- Google Chrome 104.
 
 ### Useful Resources:
 - <a href='https://youtu.be/SEzPFlnI7mY'>Automation Testing vs Manual Testing</a>

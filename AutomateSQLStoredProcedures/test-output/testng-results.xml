@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-05T21:48:54 AST" name="Default suite" finished-at="2022-09-05T21:48:54 AST" duration-ms="452">
+    <groups>
+    </groups>
+    <test started-at="2022-09-05T21:48:54 AST" name="Default test" finished-at="2022-09-05T21:48:54 AST" duration-ms="452">
+      <class name="StoredProceduresTesting.SP_MySQL_Testing">
+        <test-method is-config="true" signature="db_setup()[pri:0, instance:StoredProceduresTesting.SP_MySQL_Testing@243c4f91]" started-at="2022-09-05T21:48:54 AST" name="db_setup" finished-at="2022-09-05T21:48:54 AST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- db_setup -->
+        <test-method signature="test_Stored_Procedure_Exist()[pri:1, instance:StoredProceduresTesting.SP_MySQL_Testing@243c4f91]" started-at="2022-09-05T21:48:54 AST" name="test_Stored_Procedure_Exist" finished-at="2022-09-05T21:48:54 AST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Stored_Procedure_Exist -->
+        <test-method signature="test_SelectAllCustomers()[pri:2, instance:StoredProceduresTesting.SP_MySQL_Testing@243c4f91]" started-at="2022-09-05T21:48:54 AST" name="test_SelectAllCustomers" finished-at="2022-09-05T21:48:54 AST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_SelectAllCustomers -->
+        <test-method signature="test_CustomerAndAccountType()[pri:3, instance:StoredProceduresTesting.SP_MySQL_Testing@243c4f91]" started-at="2022-09-05T21:48:54 AST" name="test_CustomerAndAccountType" finished-at="2022-09-05T21:48:54 AST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_CustomerAndAccountType -->
+        <test-method signature="test_Valid_LogIn_Data()[pri:4, instance:StoredProceduresTesting.SP_MySQL_Testing@243c4f91]" started-at="2022-09-05T21:48:54 AST" name="test_Valid_LogIn_Data" finished-at="2022-09-05T21:48:54 AST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Valid_LogIn_Data -->
+        <test-method signature="test_Invalid_UserName_LogIn_Data()[pri:5, instance:StoredProceduresTesting.SP_MySQL_Testing@243c4f91]" started-at="2022-09-05T21:48:54 AST" name="test_Invalid_UserName_LogIn_Data" finished-at="2022-09-05T21:48:54 AST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Invalid_UserName_LogIn_Data -->
+        <test-method signature="test_Invalid_Pass_LogIn_Data()[pri:6, instance:StoredProceduresTesting.SP_MySQL_Testing@243c4f91]" started-at="2022-09-05T21:48:54 AST" name="test_Invalid_Pass_LogIn_Data" finished-at="2022-09-05T21:48:54 AST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Invalid_Pass_LogIn_Data -->
+        <test-method signature="test_Invalid_UserNameandPass_LogIn_Data()[pri:7, instance:StoredProceduresTesting.SP_MySQL_Testing@243c4f91]" started-at="2022-09-05T21:48:54 AST" name="test_Invalid_UserNameandPass_LogIn_Data" finished-at="2022-09-05T21:48:54 AST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Invalid_UserNameandPass_LogIn_Data -->
+        <test-method signature="test_Invalid_Stored_Procedure_Name()[pri:8, instance:StoredProceduresTesting.SP_MySQL_Testing@243c4f91]" started-at="2022-09-05T21:48:54 AST" name="test_Invalid_Stored_Procedure_Name" finished-at="2022-09-05T21:48:54 AST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Invalid_Stored_Procedure_Name -->
+        <test-method is-config="true" signature="close_db_connection()[pri:0, instance:StoredProceduresTesting.SP_MySQL_Testing@243c4f91]" started-at="2022-09-05T21:48:54 AST" name="close_db_connection" finished-at="2022-09-05T21:48:54 AST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_db_connection -->
+      </class> <!-- StoredProceduresTesting.SP_MySQL_Testing -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
