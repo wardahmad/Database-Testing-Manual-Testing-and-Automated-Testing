@@ -1,5 +1,6 @@
-## Continuous integration: Integrate Jenkins With Selenium WebDriver 
-
+### Continuous integration: Integrate Jenkins With Selenium WebDriver 
+### I'll use <a href='../DatabaseTestingUsingSelenium'>This Project</a>, to Integrate Jenkins With it.
+### Setup Jenkins:
 - Setup Jenkins in your local Machine
     - Download and Install Jenkins, https://www.jenkins.io/download/
     - Open `CMD`
@@ -31,6 +32,9 @@
 - Click on `Freestyle Project`
 
 ### Selenium WebDriver Project
-- I'll use <a href='../DatabaseTestingUsingSelenium'>This Project</a>
+
+
+
+
 <img src='img/img7.png' /></br>
 
