@@ -1,12 +1,12 @@
 ## Stored Procedure 1:
 - <b>Stored procedure Name:</b> SelectAllCustomers.
-- <b>Description:</b> Stored Procedure to reaturn all customers
+- <b>Description:</b> Stored Procedure SELECT all customers
 - <b>Input Parameters:</b> NA
 - <b>Output Parameters:</b> NA
 
 ```sql
 USE dbBankManagement;
--- Stored Procedure to reaturn all customers
+-- Stored Procedure SELECT all customers
 DELIMITER && CREATE PROCEDURE SelectAllCustomers() BEGIN
 SELECT *
 FROM customer;
