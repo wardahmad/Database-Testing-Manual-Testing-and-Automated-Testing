@@ -64,5 +64,6 @@ Test Environment = {"System": "Windows 10", "Database server": "MySQL", "Browser
 - <a href='https://www.guru99.com/data-testing.html'>Database (Data) Testing Tutorial with Sample Test Cases</a>
 - <a href='https://youtu.be/Geq60OVyBPg'>Software Testing Tutorial - Learn Unit Testing and Integration Testing</a>
 - <a href='https://youtu.be/XNfnn0oCzas'>How to Install and Integrate Jenkins with Selenium WebDriver</a>
+- <a href='https://www.youtube.com/playlist?list=PLIMhDiITmNrIqwyYdLRnm5vHBeIkOKPGn'>Database Testing</a>
 
 
