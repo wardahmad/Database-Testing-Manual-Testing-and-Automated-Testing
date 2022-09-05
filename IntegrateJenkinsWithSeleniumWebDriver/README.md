@@ -69,6 +69,10 @@ java org.testng.TestNG %ProjectPath%\testng.xml
 <img src='img/img13.png' /></br>
 <img src='img/img14.png' /></br>
 
+### <a href='https://youtu.be/LLSiWUSZiD4'>Recorded video, while Automated testing running</a>
+
+<img src='img/img15.gif' /></br>
+
 
 
 
