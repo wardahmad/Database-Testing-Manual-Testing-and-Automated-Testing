@@ -31,10 +31,12 @@
 - Click on `New Item`
 - Click on `Freestyle Project`
 
+<img src='img/img8.png' /></br>
+
 ### Selenium WebDriver Project
 
 
 
 
-<img src='img/img7.png' /></br>
+
 
