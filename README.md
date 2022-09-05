@@ -22,8 +22,7 @@
     - <a href='/DatabaseTestingUsingSelenium'>Automate Database Testing, Create a test suite (Using Selenium WebDriver, Java, TestNG Framework, Java Database Connectivity, MySQL)</a>
     - <a href='AutomateSQLStoredProcedures'>Automate SQL Stored Procedures, TestNG Framework.</a>
     - <a href='DatabasePerformancetestingUsinJMeter'>Database Performance testing using JMeter.</a>
-    - Continuous integration: Integrate Jenkins With Selenium WebDriver https://www.softwaretestinghelp.com/integration-of-jenkins-with-selenium-webdriver/
-https://www.youtube.com/watch?v=XNfnn0oCzas
+    - Continuous integration: Integrate Jenkins With Selenium WebDriver 
 - PPT
 
 ### Step by Step Process when Testing DB:

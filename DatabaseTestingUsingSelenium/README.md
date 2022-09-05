@@ -142,6 +142,19 @@ public class DatabaseTestingUsingSelenium {
 ```
 <br/>
 
+- Create `testng.xml` File
+- `testng.xml` File
+```xml
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test-NGSuite">
+	<test name="TestNG">
+		<classes>
+			<class name="dBAndSelenium.DatabaseTestingUsingSelenium" />
+		</classes>
+	</test>
+</suite>
+```
+
 ## Test Result: 
 ### <a href='https://youtu.be/2zU3O7a6loY'>Recorded video, while Automated testing running</a><br/>
 <img src='img/img6.gif' />
