@@ -23,7 +23,7 @@
     - <a href='AutomateSQLStoredProcedures'>Automate SQL Stored Procedures, TestNG Framework.</a>
     - <a href='DatabasePerformancetestingUsinJMeter'>Database Performance testing using JMeter.</a>
     - <a href='IntegrateJenkinsWithSeleniumWebDriver'>Continuous integration: Integrate Jenkins With Selenium WebDriver</a>
-- PPT
+- <a href='https://docs.google.com/presentation/d/17OtKpOVq1Sao3ERAqukxIRyYNGnWeTMW/edit?usp=sharing&ouid=113234837739401438291&rtpof=true&sd=true'>PPT</a>
 
 ### Step by Step Process when Testing the DB:
 1) Prepare environment:
