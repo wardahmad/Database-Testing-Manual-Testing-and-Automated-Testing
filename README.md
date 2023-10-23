@@ -1,9 +1,9 @@
 ## Database Testing: Manual Testing and Automated Testing
 
 ### About The Project: 
-* The goal of this project is to perform Database testing on any Database design in the Bank sector, understand database Testing in more depth, and have practical experience in working with different Database testing types.
-* The types of tests were performed on the database: <b>Manual and Automated Testing, White Box And Black Box, Functional and Non-Functional, Schema Testing(Tables, Views, Stored Procedures, Functions, Triggers), ACID Principles, Data Integrity, Mapping Testing, DML Operations, Database Validation, and Performance Testing. </b>
-* In this project, I have chosen this <a href='https://github.com/gmgyan/Bank-Database-Design_MS-SQL'>DATABASE DESIGN</a>, To perform Database testing on it, I made some changes to the SQL statements, to match MySQL Server, you can find the changes <a href='/DbBankManagment-MySQL.sql'>HERE</a>.
+* The purpose of this project is to conduct Database testing on any Database design, gain a deeper understanding of database testing, and acquire practical experience in working with different types of Database testing.
+* The following types of tests were performed on the database: <b>Manual and Automated Testing, Functional and Non-Functional, Schema Testing (Tables, Stored Procedures) Data Integrity, and Performance Testing.</b>
+* For this project, I selected a specific <a href='https://github.com/gmgyan/Bank-Database-Design_MS-SQL'>DATABASE DESIGN</a>, to perform Database testing on. I made some changes to the SQL statements to match MySQL Server.
 
 
 ### Project Files
